@@ -32,3 +32,8 @@ The below about 17 basic Excel formulas.
 | 16.   | XLOOKUP | The XLOOKUP() formula searches for a value in a range and returns a corresponding value in another range. | =XLOOKUP("search_value", A1:A10, B1:B10) will search for "search_value" in range A1:A10 and return the corresponding value from range B1:B10. |
 | 17.   | IFS     | The IFS() formula checks multiple conditions and returns a value corresponding to the first TRUE condition. | =IFS(A21<10, "Small", A21<20, "Medium", A21<30, "Large") will return "Small" if A21 is less than 10, "Medium" if A21 is less than 20, and "Large" if A21 is less than 30. |
 
+## Example
+- [Basic formulas example Excel file](/BasicFormulas/BasicFormulas.xlsx)
+  
+![BasicFormulas image](/BasicFormulas/BasicFormulas.png)
+
