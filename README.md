@@ -37,3 +37,23 @@ The below about 17 basic Excel formulas.
   
 ![BasicFormulas image](/BasicFormulas/BasicFormulas.png)
 
+
+---
+
+# Advance Formulas & Skill in Excel
+
+| Index | Formula             | Explanation                               | Example                                             |
+|-------|---------------------|-------------------------------------------|-----------------------------------------------------|
+| 1     | VLOOKUP             | Searches for a value in the first column of a table array and returns a value in the same row from another column you specify. | =VLOOKUP(A2,Sheet2!A:B,2,FALSE)                    |
+| 2     | INDEX MATCH         | A combination of the INDEX and MATCH functions to perform lookups with more flexibility and efficiency. | =INDEX(Sheet2!B:B, MATCH(A2, Sheet2!A:A, 0))       |
+| 3     | SUMIF               | Adds the cells specified by a given criteria. | =SUMIF(A:A, ">10", B:B)                            |
+| 4     | COUNTIF             | Counts the number of cells within a range that meet the given condition. | =COUNTIF(A:A, "apples")                            |
+| 5    | SUMIFS              | Adds the cells in a range that meet multiple criteria. | =SUMIFS(B:B, A:A, "apples", C:C, ">10")            |
+| 6    | COUNTIFS            | Counts the number of cells within a range that meet multiple criteria. | =COUNTIFS(A:A, "apples", B:B, ">10")               |
+| 7     | IFERROR             | Returns a value you specify if a formula evaluates to an error; otherwise, it returns the result of the formula. | =IFERROR(VLOOKUP(A2,Sheet2!A:B,2,FALSE), "Not Found") |
+| 8     | TEXT                | Formats a number and converts it to text.    | =TEXT(A2, "yyyy-mm-dd")                            |
+| 9     | ARRAY FORMULAS      | Perform multiple calculations on one or more items in an array. | {=SUM(A1:A10*B1:B10)}                               |
+| 10    | PIVOT TABLES        | Summarize, analyze, explore, and present summary data from Excel or other sources. | Create a pivot table from a range of sales data.    |
+| 11    | DATA VALIDATION     | Restricts the type of data or values that users enter into a cell. | Set up a drop-down list of options in a cell.       |
+| 12    | CONDITIONAL FORMATTING | Applies formatting to cells based on specified conditions. | Highlight cells with values greater than 100.       |
+
